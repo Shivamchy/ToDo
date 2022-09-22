@@ -1,0 +1,19 @@
+.formarea{
+background-color: brown;
+
+position: absolute;
+text-align: left;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="datetime-local"],
+select {
+display: block;
+width: 95%;
+border: 1px solid #ccc;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 0.9em;
+padding: 0.3em;
+}
