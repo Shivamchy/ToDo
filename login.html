@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        fieldset{
+            size:auto;
+            position:absolute;
+            align-items: center;
+            font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+            font-size: 0.8em;
+            
+            padding: 1em;
+            border: 1px solid #ccc;
+        }
+        .login label{
+text-align: left;
+        }
+        .login input[type="text"],input[type="password"]{
+            float: right;
+            width: 60%;
+            border: 1px solid #ccc;
+            font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+            font-size: 0.9em;
+            padding: 0.3em;
+        }
+        .login button{
+            margin-left:40% ;
+            border-radius: 0.3em solid #ccc;
+
+        }
+        .element{
+            background-color: papayawhip;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <fieldset class="login" >
+        <legend>Log In</legend>
+        <div class="element">
+        <p><label>Username<input type="text" placeholder="Enter User name"></label></p>
+        <p><label>Password<input type="password" placeholder="password"></label></p>
+        <small><a href="#">Forgot password ?</a>    <a href="#">Sign Up</a></small>
+        <p><button>Log In</button></p>
+    </div>
+    </fieldset>
+    <h4>Hello brother!!</h4>
+</body>
+</html>
